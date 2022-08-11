@@ -1,0 +1,17 @@
+mutation login($email: String!, $password: String!) {
+    login(email: $email, password: $password) {
+      id
+      name
+      token
+      img
+      measurementPreference
+      latestActivity {
+        id
+        title
+        createdAt
+        polyline
+        elevation
+        distance
+      }
+    }
+}

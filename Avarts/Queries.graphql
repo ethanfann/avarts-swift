@@ -1,0 +1,25 @@
+query me {
+    me {
+      id
+      name
+      email
+      img
+      latestActivity {
+        id
+        title
+        createdAt
+        polyline
+        elevation
+        distance
+      }
+      activityCount
+      firstName
+      lastName
+      strokeColor
+      measurementPreference
+    }
+}
+
+query ping {
+    ping
+}

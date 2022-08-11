@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAE23DF128A4D2BD0080E733 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE23DF028A4D2BD0080E733 /* Extensions.swift */; };
+		AAE23DF228A4D2BD0080E733 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE23DF028A4D2BD0080E733 /* Extensions.swift */; };
+		AAE23DF428A4D8D90080E733 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE23DF328A4D8D90080E733 /* RemoteImage.swift */; };
+		AAE23DF928A4E4CA0080E733 /* Mutations.graphql in Resources */ = {isa = PBXBuildFile; fileRef = AAE23DF828A4E4CA0080E733 /* Mutations.graphql */; };
+		AAE23DFA28A4E4CA0080E733 /* Mutations.graphql in Resources */ = {isa = PBXBuildFile; fileRef = AAE23DF828A4E4CA0080E733 /* Mutations.graphql */; };
+		AAE23DFC28A4E4F40080E733 /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = AAE23DFB28A4E4F40080E733 /* Queries.graphql */; };
+		AAE23DFD28A4E4F40080E733 /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = AAE23DFB28A4E4F40080E733 /* Queries.graphql */; };
+		AAE23DFF28A4E6C00080E733 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AAE23DFE28A4E6C00080E733 /* README.md */; };
+		AAE23E0028A4E6C00080E733 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AAE23DFE28A4E6C00080E733 /* README.md */; };
+		C524C5BF2605B53C0025830C /* Polyline in Frameworks */ = {isa = PBXBuildFile; productRef = C524C5BE2605B53C0025830C /* Polyline */; };
+		C54C134E263CD68B00E25367 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = C54C134D263CD68B00E25367 /* schema.json */; };
+		C54D94092605B7A700299082 /* Polyline in Frameworks */ = {isa = PBXBuildFile; productRef = C54D94082605B7A700299082 /* Polyline */; };
+		C54D94112606933500299082 /* AuthenticationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D94102606933500299082 /* AuthenticationState.swift */; };
+		C54D94122606933500299082 /* AuthenticationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D94102606933500299082 /* AuthenticationState.swift */; };
+		C54D94152606A0E500299082 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D94142606A0E500299082 /* HomeView.swift */; };
+		C54D94182606A1C700299082 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D94172606A1C700299082 /* AuthenticationView.swift */; };
+		C560064325E59B1100F7E765 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58611FF25E5920D002986D9 /* WidgetKit.framework */; };
+		C560064425E59B1100F7E765 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C586120125E5920D002986D9 /* SwiftUI.framework */; };
+		C560064725E59B1100F7E765 /* Avarts_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560064625E59B1100F7E765 /* Avarts_Widget.swift */; };
+		C560064A25E59B1300F7E765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C560064925E59B1300F7E765 /* Assets.xcassets */; };
+		C560064C25E59B1300F7E765 /* Avarts_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C560064825E59B1100F7E765 /* Avarts_Widget.intentdefinition */; };
+		C560064D25E59B1300F7E765 /* Avarts_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C560064825E59B1100F7E765 /* Avarts_Widget.intentdefinition */; };
+		C560065025E59B1300F7E765 /* Avarts WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C560064225E59B1100F7E765 /* Avarts WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C560065B25E5CB3200F7E765 /* TokenAddingInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560065A25E5CB3200F7E765 /* TokenAddingInterceptor.swift */; };
+		C560066125E5CB9300F7E765 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C560066025E5CB9300F7E765 /* KeychainSwift */; };
+		C560068225E6FDCB00F7E765 /* NetworkInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560068125E6FDCB00F7E765 /* NetworkInterceptorProvider.swift */; };
+		C56006F425E71C9700F7E765 /* NetworkInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560068125E6FDCB00F7E765 /* NetworkInterceptorProvider.swift */; };
+		C56006F725E71C9B00F7E765 /* TokenAddingInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C560065A25E5CB3200F7E765 /* TokenAddingInterceptor.swift */; };
+		C56006F825E71C9D00F7E765 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58611EA25E49FA2002986D9 /* Network.swift */; };
+		C56006FA25E71CA300F7E765 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58611E725E49F60002986D9 /* API.swift */; };
+		C56006FE25E720F400F7E765 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = C56006FD25E720F400F7E765 /* Apollo */; };
+		C560070125E7213500F7E765 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C560070025E7213500F7E765 /* KeychainSwift */; };
+		C58611CA25E1A747002986D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58611C925E1A747002986D9 /* ContentView.swift */; };
+		C58611CC25E1A748002986D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58611CB25E1A748002986D9 /* Assets.xcassets */; };
+		C58611CF25E1A748002986D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58611CE25E1A748002986D9 /* Preview Assets.xcassets */; };
+		C58611D925E4357D002986D9 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = C58611D825E4357D002986D9 /* Apollo */; };
+		C58611E825E49F60002986D9 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58611E725E49F60002986D9 /* API.swift */; };
+		C58611EB25E49FA2002986D9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58611EA25E49FA2002986D9 /* Network.swift */; };
+		C58611F425E58FE4002986D9 /* AvartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58611F325E58FE4002986D9 /* AvartsApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C560064E25E59B1300F7E765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58611BC25E1A747002986D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C560064125E59B1100F7E765;
+			remoteInfo = "Avarts WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C56006AA25E7045700F7E765 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C586120F25E59210002986D9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C560065025E59B1300F7E765 /* Avarts WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AAE23DF028A4D2BD0080E733 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AAE23DF328A4D8D90080E733 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		AAE23DF828A4E4CA0080E733 /* Mutations.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Mutations.graphql; sourceTree = "<group>"; };
+		AAE23DFB28A4E4F40080E733 /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		AAE23DFE28A4E6C00080E733 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C54C134D263CD68B00E25367 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		C54D94102606933500299082 /* AuthenticationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationState.swift; sourceTree = "<group>"; };
+		C54D94142606A0E500299082 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C54D94172606A1C700299082 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		C560064225E59B1100F7E765 /* Avarts WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Avarts WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C560064625E59B1100F7E765 /* Avarts_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avarts_Widget.swift; sourceTree = "<group>"; };
+		C560064825E59B1100F7E765 /* Avarts_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Avarts_Widget.intentdefinition; sourceTree = "<group>"; };
+		C560064925E59B1300F7E765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C560064B25E59B1300F7E765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C560065A25E5CB3200F7E765 /* TokenAddingInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenAddingInterceptor.swift; sourceTree = "<group>"; };
+		C560068125E6FDCB00F7E765 /* NetworkInterceptorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptorProvider.swift; sourceTree = "<group>"; };
+		C58611C425E1A747002986D9 /* Avarts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avarts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58611C925E1A747002986D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C58611CB25E1A748002986D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C58611CE25E1A748002986D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C58611D025E1A748002986D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58611E725E49F60002986D9 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C58611EA25E49FA2002986D9 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		C58611F325E58FE4002986D9 /* AvartsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvartsApp.swift; sourceTree = "<group>"; };
+		C58611FF25E5920D002986D9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		C586120125E5920D002986D9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		C5EF901F2649A91D0098B06B /* Info-dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-dev.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C560063F25E59B1100F7E765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C560064425E59B1100F7E765 /* SwiftUI.framework in Frameworks */,
+				C56006FE25E720F400F7E765 /* Apollo in Frameworks */,
+				C54D94092605B7A700299082 /* Polyline in Frameworks */,
+				C560070125E7213500F7E765 /* KeychainSwift in Frameworks */,
+				C560064325E59B1100F7E765 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58611C125E1A747002986D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C524C5BF2605B53C0025830C /* Polyline in Frameworks */,
+				C560066125E5CB9300F7E765 /* KeychainSwift in Frameworks */,
+				C58611D925E4357D002986D9 /* Apollo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C560064525E59B1100F7E765 /* Avarts Widget */ = {
+			isa = PBXGroup;
+			children = (
+				C560064625E59B1100F7E765 /* Avarts_Widget.swift */,
+				C560064825E59B1100F7E765 /* Avarts_Widget.intentdefinition */,
+				C560064925E59B1300F7E765 /* Assets.xcassets */,
+				C560064B25E59B1300F7E765 /* Info.plist */,
+			);
+			path = "Avarts Widget";
+			sourceTree = "<group>";
+		};
+		C58611BB25E1A747002986D9 = {
+			isa = PBXGroup;
+			children = (
+				AAE23DFE28A4E6C00080E733 /* README.md */,
+				C58611C625E1A747002986D9 /* Avarts */,
+				C560064525E59B1100F7E765 /* Avarts Widget */,
+				C58611FE25E5920D002986D9 /* Frameworks */,
+				C58611C525E1A747002986D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C58611C525E1A747002986D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C58611C425E1A747002986D9 /* Avarts.app */,
+				C560064225E59B1100F7E765 /* Avarts WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C58611C625E1A747002986D9 /* Avarts */ = {
+			isa = PBXGroup;
+			children = (
+				C5EF901F2649A91D0098B06B /* Info-dev.plist */,
+				C54C134D263CD68B00E25367 /* schema.json */,
+				C560068125E6FDCB00F7E765 /* NetworkInterceptorProvider.swift */,
+				C560065A25E5CB3200F7E765 /* TokenAddingInterceptor.swift */,
+				C58611EA25E49FA2002986D9 /* Network.swift */,
+				C58611E725E49F60002986D9 /* API.swift */,
+				C58611F325E58FE4002986D9 /* AvartsApp.swift */,
+				C58611C925E1A747002986D9 /* ContentView.swift */,
+				C58611CB25E1A748002986D9 /* Assets.xcassets */,
+				C58611D025E1A748002986D9 /* Info.plist */,
+				C58611CD25E1A748002986D9 /* Preview Content */,
+				C54D94102606933500299082 /* AuthenticationState.swift */,
+				C54D94142606A0E500299082 /* HomeView.swift */,
+				C54D94172606A1C700299082 /* AuthenticationView.swift */,
+				AAE23DF028A4D2BD0080E733 /* Extensions.swift */,
+				AAE23DF328A4D8D90080E733 /* RemoteImage.swift */,
+				AAE23DF828A4E4CA0080E733 /* Mutations.graphql */,
+				AAE23DFB28A4E4F40080E733 /* Queries.graphql */,
+			);
+			path = Avarts;
+			sourceTree = "<group>";
+		};
+		C58611CD25E1A748002986D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C58611CE25E1A748002986D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C58611FE25E5920D002986D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C58611FF25E5920D002986D9 /* WidgetKit.framework */,
+				C586120125E5920D002986D9 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C560064125E59B1100F7E765 /* Avarts WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C560065125E59B1300F7E765 /* Build configuration list for PBXNativeTarget "Avarts WidgetExtension" */;
+			buildPhases = (
+				C560063E25E59B1100F7E765 /* Sources */,
+				C560063F25E59B1100F7E765 /* Frameworks */,
+				C560064025E59B1100F7E765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Avarts WidgetExtension";
+			packageProductDependencies = (
+				C56006FD25E720F400F7E765 /* Apollo */,
+				C560070025E7213500F7E765 /* KeychainSwift */,
+				C54D94082605B7A700299082 /* Polyline */,
+			);
+			productName = "Avarts WidgetExtension";
+			productReference = C560064225E59B1100F7E765 /* Avarts WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C58611C325E1A747002986D9 /* Avarts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58611D325E1A748002986D9 /* Build configuration list for PBXNativeTarget "Avarts" */;
+			buildPhases = (
+				C56006EE25E7199500F7E765 /* Apollo CLI */,
+				C58611C025E1A747002986D9 /* Sources */,
+				C58611C125E1A747002986D9 /* Frameworks */,
+				C58611C225E1A747002986D9 /* Resources */,
+				C586120F25E59210002986D9 /* Embed App Extensions */,
+				C56006AA25E7045700F7E765 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C560064F25E59B1300F7E765 /* PBXTargetDependency */,
+			);
+			name = Avarts;
+			packageProductDependencies = (
+				C58611D825E4357D002986D9 /* Apollo */,
+				C560066025E5CB9300F7E765 /* KeychainSwift */,
+				C524C5BE2605B53C0025830C /* Polyline */,
+			);
+			productName = "avarts-widget";
+			productReference = C58611C425E1A747002986D9 /* Avarts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C58611BC25E1A747002986D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C560064125E59B1100F7E765 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C58611C325E1A747002986D9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C58611BF25E1A747002986D9 /* Build configuration list for PBXProject "Avarts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C58611BB25E1A747002986D9;
+			packageReferences = (
+				C58611D725E4357D002986D9 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				C560065F25E5CB9300F7E765 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				C524C5BD2605B53C0025830C /* XCRemoteSwiftPackageReference "Polyline" */,
+			);
+			productRefGroup = C58611C525E1A747002986D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C58611C325E1A747002986D9 /* Avarts */,
+				C560064125E59B1100F7E765 /* Avarts WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C560064025E59B1100F7E765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE23DFD28A4E4F40080E733 /* Queries.graphql in Resources */,
+				AAE23DFA28A4E4CA0080E733 /* Mutations.graphql in Resources */,
+				AAE23E0028A4E6C00080E733 /* README.md in Resources */,
+				C560064A25E59B1300F7E765 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58611C225E1A747002986D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE23DFF28A4E6C00080E733 /* README.md in Resources */,
+				C58611CF25E1A748002986D9 /* Preview Assets.xcassets in Resources */,
+				AAE23DFC28A4E4F40080E733 /* Queries.graphql in Resources */,
+				C54C134E263CD68B00E25367 /* schema.json in Resources */,
+				C58611CC25E1A748002986D9 /* Assets.xcassets in Resources */,
+				AAE23DF928A4E4CA0080E733 /* Mutations.graphql in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C56006EE25E7199500F7E765 /* Apollo CLI */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Apollo CLI";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $ENABLE_PREVIEWS == \"NO\" ]\nthen\n  DERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n\n\nelse\n  echo \"Skipping the script because of preview mode\"\nfi\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C560063E25E59B1100F7E765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56006F425E71C9700F7E765 /* NetworkInterceptorProvider.swift in Sources */,
+				C56006F825E71C9D00F7E765 /* Network.swift in Sources */,
+				C56006F725E71C9B00F7E765 /* TokenAddingInterceptor.swift in Sources */,
+				AAE23DF228A4D2BD0080E733 /* Extensions.swift in Sources */,
+				C560064725E59B1100F7E765 /* Avarts_Widget.swift in Sources */,
+				C56006FA25E71CA300F7E765 /* API.swift in Sources */,
+				C560064C25E59B1300F7E765 /* Avarts_Widget.intentdefinition in Sources */,
+				C54D94122606933500299082 /* AuthenticationState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58611C025E1A747002986D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58611CA25E1A747002986D9 /* ContentView.swift in Sources */,
+				C54D94182606A1C700299082 /* AuthenticationView.swift in Sources */,
+				C58611F425E58FE4002986D9 /* AvartsApp.swift in Sources */,
+				C54D94112606933500299082 /* AuthenticationState.swift in Sources */,
+				C560068225E6FDCB00F7E765 /* NetworkInterceptorProvider.swift in Sources */,
+				C560065B25E5CB3200F7E765 /* TokenAddingInterceptor.swift in Sources */,
+				AAE23DF128A4D2BD0080E733 /* Extensions.swift in Sources */,
+				AAE23DF428A4D8D90080E733 /* RemoteImage.swift in Sources */,
+				C58611E825E49F60002986D9 /* API.swift in Sources */,
+				C54D94152606A0E500299082 /* HomeView.swift in Sources */,
+				C58611EB25E49FA2002986D9 /* Network.swift in Sources */,
+				C560064D25E59B1300F7E765 /* Avarts_Widget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C560064F25E59B1300F7E765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C560064125E59B1100F7E765 /* Avarts WidgetExtension */;
+			targetProxy = C560064E25E59B1300F7E765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C560065225E59B1300F7E765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Avarts WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 5BPG7W6MSD;
+				INFOPLIST_FILE = "Avarts Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethanfann.Avarts.Avarts-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C560065325E59B1300F7E765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Avarts WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 5BPG7W6MSD;
+				INFOPLIST_FILE = "Avarts Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ethanfann.Avarts.Avarts-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C58611D125E1A748002986D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C58611D225E1A748002986D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C58611D425E1A748002986D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Avarts/Avarts.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"Avarts/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BPG7W6MSD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Avarts/Info-dev.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethanfann.Avarts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C58611D525E1A748002986D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Avarts/Avarts.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"Avarts/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BPG7W6MSD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Avarts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ethanfann.Avarts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C560065125E59B1300F7E765 /* Build configuration list for PBXNativeTarget "Avarts WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C560065225E59B1300F7E765 /* Debug */,
+				C560065325E59B1300F7E765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58611BF25E1A747002986D9 /* Build configuration list for PBXProject "Avarts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58611D125E1A748002986D9 /* Debug */,
+				C58611D225E1A748002986D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58611D325E1A748002986D9 /* Build configuration list for PBXNativeTarget "Avarts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58611D425E1A748002986D9 /* Debug */,
+				C58611D525E1A748002986D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C524C5BD2605B53C0025830C /* XCRemoteSwiftPackageReference "Polyline" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raphaelmor/Polyline.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		C560065F25E5CB9300F7E765 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 19.0.0;
+			};
+		};
+		C58611D725E4357D002986D9 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.41.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C524C5BE2605B53C0025830C /* Polyline */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C524C5BD2605B53C0025830C /* XCRemoteSwiftPackageReference "Polyline" */;
+			productName = Polyline;
+		};
+		C54D94082605B7A700299082 /* Polyline */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C524C5BD2605B53C0025830C /* XCRemoteSwiftPackageReference "Polyline" */;
+			productName = Polyline;
+		};
+		C560066025E5CB9300F7E765 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C560065F25E5CB9300F7E765 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		C56006FD25E720F400F7E765 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C58611D725E4357D002986D9 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		C560070025E7213500F7E765 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C560065F25E5CB9300F7E765 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		C58611D825E4357D002986D9 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C58611D725E4357D002986D9 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C58611BC25E1A747002986D9 /* Project object */;
+}
