@@ -1,5 +1,9 @@
 # Avarts Widget
 
+![Home Screen](https://i.imgur.com/faFC0Di.png)
+
+![Widget](https://www.tangey.app/images/widget_light_s.png)
+
 Swift + SwiftUI companion app for [Avarts](https://github.com/ethanfann/avarts).
 
 ## Features
@@ -20,8 +24,8 @@ Swift + SwiftUI companion app for [Avarts](https://github.com/ethanfann/avarts).
 
 3. Fill in ENV variables
 
-- GRAPHQL_URL
-- CLIENT_URL
-- ACCESS_GROUP
+- GRAPHQL_URL: Ex. `https://example.com/graphql`
+- CLIENT_URL: Ex. `https://example.com`
+- ACCESS_GROUP Ex. `XXXX.com.ethanfann.Avarts`
 
 4. Build and Run
